@@ -1,7 +1,7 @@
 import React from 'react'
 import { useEffect } from "react"
 import Card from './Card'
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch} from 'react-redux'
 import { SetProduct } from '../Redux/Action/Action'
 import axios from "axios"
 
@@ -24,7 +24,7 @@ const Product = () => {
         featch();
 
 
-    }, [])
+    })
     // console.log(product);
     return (
         <>
